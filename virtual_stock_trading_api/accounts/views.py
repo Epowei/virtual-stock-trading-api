@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.authtoken.models import Token
 from .serializers import UserSerializer, RegisterSerializer
 
-# Create your views here.
+# Accounts API views
 
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
