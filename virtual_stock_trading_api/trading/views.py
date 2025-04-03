@@ -8,6 +8,8 @@ from stocks.models import Stock
 from stocks.services import FinnhubService
 from .serializers import TradeSerializer
 
+# Trading Viewsets
+
 class BuyStockView(generics.CreateAPIView):
     permission_classes = [permissions.IsAuthenticated]
     serializer_class = TradeSerializer
