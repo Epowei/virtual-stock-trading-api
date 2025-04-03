@@ -1,6 +1,8 @@
 from django.db import models
 from decimal import Decimal
 
+
+# Stock models
 class Stock(models.Model):
     symbol = models.CharField(max_length=10, unique=True)
     company_name = models.CharField(max_length=255)
