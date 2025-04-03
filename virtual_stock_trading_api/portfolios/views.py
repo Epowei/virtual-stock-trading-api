@@ -9,6 +9,8 @@ from .serializers import (PortfolioSerializer, PortfolioDetailSerializer,
                          PortfolioSnapshotSerializer)
 from .tasks import create_portfolio_snapshot
 
+# Portfolios viewset
+
 class PortfolioViewSet(viewsets.ModelViewSet):
     serializer_class = PortfolioSerializer
     permission_classes = [permissions.IsAuthenticated]
