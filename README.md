@@ -177,11 +177,11 @@ Here are the endpoints to test with Postman:
 1. Register a user:
 
     * POST `/api/auth/register/`
-    * Body: `{"username": "testuser", "email": "test@example.com", "password": "password123", "password2": "password123"}`
+    * Body: `{"username": "stockser", "email": "stock@example.com", "password": "password123", "password2": "password123"}`
 
 2. Login:
     * POST `/api/auth/login/`
-    * Body: `{"username": "testuser", "password": "password123"}`
+    * Body: `{"username": "stockuser", "password": "password123"}`
 
 3. Create a portfolio:
     * POST `/api/portfolios/`
