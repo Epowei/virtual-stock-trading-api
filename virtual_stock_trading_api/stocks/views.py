@@ -8,6 +8,8 @@ from .models import Stock
 from .serializers import StockSerializer, StockSearchSerializer
 from .services import FinnhubService
 
+# Stock App ViewSet
+
 class StockViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Stock.objects.all()
     serializer_class = StockSerializer
