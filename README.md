@@ -268,6 +268,5 @@ __Deployment on Render__
 ### Acknowledgements
 * Finnhub.io for providing stock market data
 * Django and Django REST Framework
-* Bootstrap for the UI components
 
 
