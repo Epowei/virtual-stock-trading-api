@@ -148,7 +148,7 @@ source stock/bin/activate
 ```bash
 # Create .env file in the project root
 echo "SECRET_KEY=your_secret_key_here
-FINNHUB_API_KEY=your_alpha_vantage_api_key
+FINNHUB_API_KEY=your_finnhub_api_key
 DEBUG=True" > .env
 ```
 
