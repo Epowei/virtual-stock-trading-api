@@ -172,7 +172,8 @@ __Authentication__
 * API requests must include an Authorization header with a valid token
 
 ## Testing with Postman
-Here are the endpoints to test with Postman:
+**Here are the endpoints to test with Postman**:
+
 __Local Base url__: `http://127.0.0.1:8000/`
 
 __Production Base url__: `https://virtual-stock-trading-api.onrender.com`
