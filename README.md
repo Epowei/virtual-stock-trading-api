@@ -173,6 +173,9 @@ __Authentication__
 
 ## Testing with Postman
 Here are the endpoints to test with Postman:
+__Local Base url__: `http://127.0.0.1:8000/`
+
+__Production Base url__: `https://virtual-stock-trading-api.onrender.com`
 
 1. Register a user:
 
